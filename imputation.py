@@ -212,5 +212,5 @@ def save_output(output_folder, file, temp, time, Starttime, temp0, time0, impute
     }).to_csv(imputed_data_path, index=False)
 
 if __name__ == "__main__":
-    folder_path = "/Users/aryan/encryptedDrive/Blessing_lab_LANGONE/impute_signal/raw_data"
+    folder_path = ""
     main(folder_path)
